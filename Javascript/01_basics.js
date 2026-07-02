@@ -36,20 +36,51 @@ let valinbool=Boolean(score)
 console.log(valinbool)
 */
 //---------------------operation---------
-let val=3
-let negval=-val
-console.log(negval) 
-//console.log(2+2)
-//console.log(2-2)
-//console.log(2*2)
-//console.log(2**3)
-// let str="Nikhil"
-// let str2="Bhati"
-// console.log(str+str2)
-// console.log("1"+2)//1 is convert in int
-// console.log(1+"2")//1 is convert in string 
+// let val=3
+// let negval=-val
+// console.log(negval) 
+// //console.log(2+2)
+// //console.log(2-2)
+// //console.log(2*2)
+// //console.log(2**3)
+// // let str="Nikhil"
+// // let str2="Bhati"
+// // console.log(str+str2)
+// // console.log("1"+2)//1 is convert in int
+// // console.log(1+"2")//1 is convert in string 
+// console.log(+true)
+// let gamecounter=100
+// gamecounter++
+// console.log(gamecounter)
+//comparision
+// console.log(2>1)
+// console.log(2>=1)
+// console.log(2==1)
+//Primitive 
+// 7 type : strings, numbers, bigint, boolean, null, undefined, symbol
+const score=100 // Number
+const is_loggedin=true // Boolean
+const temp=null // Null
+const user=undefined // Undefined
+const id=Symbol("id") // Symbol
+//Type of
+console.log(typeof score)
+console.log(typeof is_loggedin)
+console.log(typeof temp)
+console.log(typeof user)
 
-console.log(+true)
+//Non-primitive (reference): objects , arrays , function
+const person={name:"Nikhil",age:20} // Object
+const heros=["Nikhil","Bhati"] // Array
+function sayHello(){
+    console.log("Hello")
+}// function
+console.log(typeof person)
+console.log(typeof heros)
+console.log(typeof sayHello)
+
+
+
 
 
 
