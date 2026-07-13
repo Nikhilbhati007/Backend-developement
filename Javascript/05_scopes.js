@@ -22,3 +22,12 @@ if (true){
         console.log(username + " " + website); // Output: Nikhil Bhati
     }
 }
+// Use of Immediately Invoke Function Expression (IIFE)
+(function(){
+    const username="Nikhil Bhati"; //function scope
+    console.log(username); // Output: Nikhil Bhati  
+})();//semi colon if yo want to use new iife after this one
+(function(){
+    const website="Billionare"; //function scope
+    console.log(website); // Output: Billionare  
+})('Nikhil Bhati');//semi colon if yo want to use new iife after this one   
